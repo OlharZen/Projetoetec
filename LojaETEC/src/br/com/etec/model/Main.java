@@ -17,7 +17,7 @@ public class Main extends Application {
 			scene.getStylesheets().add(getClass().getResource("/br/com/etec/view/application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			
-			primaryStage.initStyle(StageStyle.UNDECORATED);
+			primaryStage.initStyle(StageStyle.UNDECORATED); 
 			
 			primaryStage.show();
 			
